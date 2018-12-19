@@ -1,0 +1,1 @@
+grep -o -E '#define\s\w+\s"(\w|\d|\s|.|_|-)+' $1 | sort | uniq
